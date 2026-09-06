@@ -1,0 +1,123 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <symbol id="furn-tile" viewBox="0 0 800 800">
+      
+
+      
+      <g transform="translate(70,120) scale(1.1)">
+        <rect class="furn-soft" x="0" y="35" width="120" height="45" rx="10"></rect>
+        <path class="furn" d="M 0 80 V 40 Q 0 30 10 30 H 110 Q 120 30 120 40 V 80"></path>
+        <path class="furn" d="M 15 30 Q 15 15 25 15 H 95 Q 105 15 105 30"></path>
+        <path class="furn" d="M 10 55 H 110"></path>
+        <path class="furn" d="M 60 55 V 80"></path>
+        <line class="furn" x1="15" y1="80" x2="15" y2="92"></line>
+        <line class="furn" x1="105" y1="80" x2="105" y2="92"></line>
+      </g>
+
+      
+      <g transform="translate(640,70)">
+        <path class="furn-plum" d="M 25 0 L 5 40 H 55 Z"></path>
+        <line class="furn-plum" x1="30" y1="42" x2="30" y2="100"></line>
+        <ellipse class="furn-plum" cx="30" cy="105" rx="20" ry="4"></ellipse>
+        <circle class="furn-accent" cx="30" cy="20" r="2"></circle>
+      </g>
+
+      
+      <g transform="translate(140,320)">
+        <rect class="furn-soft" x="10" y="20" width="60" height="55" rx="4"></rect>
+        <path class="furn" d="M 15 75 V 25 Q 15 15 25 15 H 55 Q 65 15 65 25 V 75"></path>
+        <path class="furn" d="M 20 40 H 60"></path>
+        <line class="furn" x1="20" y1="75" x2="20" y2="95"></line>
+        <line class="furn" x1="60" y1="75" x2="60" y2="95"></line>
+        <circle class="furn-dot" cx="40" cy="30" r="1.5"></circle>
+      </g>
+
+      
+      <g transform="translate(360,280)">
+        <rect class="furn" x="0" y="40" width="110" height="6" rx="2"></rect>
+        <line class="furn" x1="12" y1="46" x2="12" y2="90"></line>
+        <line class="furn" x1="98" y1="46" x2="98" y2="90"></line>
+        
+        <path class="furn-accent" d="M 40 40 Q 40 20 50 15 Q 55 12 55 8 Q 55 4 58 4 Q 61 4 61 8 Q 61 12 66 15 Q 76 20 76 40"></path>
+        
+        <circle class="furn-dot" cx="58" cy="2" r="2.5"></circle>
+        <circle class="furn-dot" cx="53" cy="7" r="1.5"></circle>
+      </g>
+
+      
+      <g transform="translate(560,300)">
+        <rect class="furn-soft" x="0" y="30" width="160" height="50" rx="6"></rect>
+        <path class="furn-plum" d="M 0 80 V 25 Q 0 15 10 15 H 150 Q 160 15 160 25 V 80"></path>
+        <path class="furn-plum" d="M 0 55 H 160"></path>
+        
+        <rect class="furn-plum" x="12" y="32" width="30" height="14" rx="3"></rect>
+        <rect class="furn-plum" x="50" y="32" width="30" height="14" rx="3"></rect>
+        <line class="furn-plum" x1="8" y1="80" x2="8" y2="92"></line>
+        <line class="furn-plum" x1="152" y1="80" x2="152" y2="92"></line>
+      </g>
+
+      
+      <g transform="translate(380,60)">
+        <line class="furn" x1="30" y1="0" x2="30" y2="22"></line>
+        <path class="furn-accent" d="M 30 22 Q 0 34 0 50 Q 0 58 6 58 Q 12 58 12 50 Q 12 44 15 40"></path>
+        <path class="furn-accent" d="M 30 22 Q 60 34 60 50 Q 60 58 54 58 Q 48 58 48 50 Q 48 44 45 40"></path>
+        <path class="furn-accent" d="M 30 22 V 52 Q 30 60 24 60 Q 30 60 36 60 Q 30 60 30 52"></path>
+        <circle class="furn-dot" cx="6" cy="58" r="2"></circle>
+        <circle class="furn-dot" cx="54" cy="58" r="2"></circle>
+        <circle class="furn-dot" cx="30" cy="60" r="2"></circle>
+      </g>
+
+      
+      <g transform="translate(80,520)">
+        
+        <path class="furn-plum" d="M 10 50 L 5 90 Q 5 98 13 98 H 47 Q 55 98 55 90 L 50 50 Z"></path>
+        
+        <path class="furn-accent" d="M 30 50 Q 20 30 10 10 Q 14 25 20 35"></path>
+        <path class="furn-accent" d="M 30 50 Q 40 30 50 10 Q 46 25 40 35"></path>
+        <path class="furn-accent" d="M 30 50 Q 32 30 30 10"></path>
+      </g>
+
+      
+      <g transform="translate(340,560)">
+        <ellipse class="furn-plum" cx="40" cy="20" rx="35" ry="8"></ellipse>
+        <line class="furn-plum" x1="15" y1="26" x2="20" y2="80"></line>
+        <line class="furn-plum" x1="65" y1="26" x2="60" y2="80"></line>
+        <line class="furn-plum" x1="40" y1="25" x2="40" y2="82"></line>
+        <ellipse class="furn-plum" cx="40" cy="82" rx="22" ry="4"></ellipse>
+      </g>
+
+      
+      <g transform="translate(600,530)">
+        <rect class="furn-soft" x="0" y="40" width="90" height="55" rx="6"></rect>
+        <path class="furn" d="M 0 95 V 45 Q 0 30 15 30 H 75 Q 90 30 90 45 V 95"></path>
+        <path class="furn" d="M 15 30 Q 15 10 25 10 H 65 Q 75 10 75 30"></path>
+        <path class="furn" d="M 0 65 H 90"></path>
+        <line class="furn" x1="8" y1="95" x2="8" y2="110"></line>
+        <line class="furn" x1="82" y1="95" x2="82" y2="110"></line>
+      </g>
+
+      
+      <g transform="translate(500,110)">
+        <rect class="furn-plum" x="0" y="0" width="70" height="50" rx="2"></rect>
+        <path class="furn-accent" d="M 8 42 L 22 22 L 34 34 L 46 14 L 62 42"></path>
+        <circle class="furn-dot" cx="52" cy="10" r="2"></circle>
+      </g>
+
+      
+      <g class="furn-dot">
+        <circle cx="280" cy="180" r="2"></circle>
+        <circle cx="450" cy="480" r="2"></circle>
+        <circle cx="720" cy="420" r="2"></circle>
+        <circle cx="230" cy="680" r="2"></circle>
+        <circle cx="540" cy="700" r="2"></circle>
+      </g>
+      <g class="furn-accent" opacity=".4">
+        <path d="M 220 80 L 226 88 L 234 92 L 226 96 L 222 104 L 218 96 L 210 92 L 218 88 Z"></path>
+        <path d="M 740 620 L 744 626 L 750 628 L 744 632 L 742 638 L 738 632 L 732 628 L 738 626 Z"></path>
+        <path d="M 410 620 L 414 626 L 420 628 L 414 632 L 412 638 L 408 632 L 402 628 L 408 626 Z"></path>
+      </g>
+    </symbol>
+  </defs>
+  <use href="#furn-tile"></use>
+</svg>

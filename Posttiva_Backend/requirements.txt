@@ -1,0 +1,21 @@
+# POSTTIVA — Python dependencies
+fastapi
+uvicorn[standard]
+python-multipart
+python-dotenv
+pillow
+numpy
+scipy
+opencv-python
+torch
+torchvision
+diffusers
+transformers
+accelerate
+segment-anything-hq
+openai
+anthropic
+git+https://github.com/openai/CLIP.git
+qwen-vl-utils
+scikit-learn
+timm

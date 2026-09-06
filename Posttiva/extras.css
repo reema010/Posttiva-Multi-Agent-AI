@@ -1,0 +1,284 @@
+
+/* ═══════════════════════════════════════════════════════════
+   POSTTIVA — v5 additions
+   Tagline · Actions card · Rating · CTA swatches · Font row · TG single
+   ═══════════════════════════════════════════════════════════ */
+
+/* Landing tagline (under H1) */
+.landing__tagline {
+  font-family: var(--font-display);
+  font-size: 26px;
+  line-height: 1.25;
+  color: var(--plum);
+  margin: 6px 0 18px;
+  max-width: 540px;
+}
+.landing__tagline em {
+  font-style: italic;
+  color: var(--coral);
+}
+
+/* ─── Result · Actions card ──────────────────────────── */
+.result__hero {
+  margin-bottom: 28px;
+}
+.result__hero__sub {
+  margin-top: 12px;
+  color: var(--ink-soft);
+  max-width: 540px;
+}
+.actions-card {
+  background: var(--plum);
+  color: #fff;
+  border-radius: var(--r-lg);
+  padding: 22px;
+  margin-bottom: 20px;
+  position: relative;
+  overflow: hidden;
+}
+.actions-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 100% 0%, rgba(247,108,108,0.18), transparent 60%);
+  pointer-events: none;
+}
+.actions-card__title {
+  font-family: var(--font-display);
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 16px;
+  position: relative;
+}
+.actions-card__title em { color: var(--coral); }
+.actions-card__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  position: relative;
+}
+.action-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.12);
+  color: #fff;
+  border-radius: var(--r-md);
+  padding: 14px 14px;
+  cursor: pointer;
+  text-align: left;
+  transition: all .18s ease;
+  font-family: var(--font-ui);
+}
+.action-btn:hover {
+  background: rgba(255,255,255,0.16);
+  border-color: rgba(255,255,255,0.24);
+  transform: translateY(-1px);
+}
+.action-btn--primary {
+  background: var(--coral);
+  border-color: var(--coral);
+}
+.action-btn--primary:hover {
+  background: #ff8585;
+  border-color: #ff8585;
+}
+.action-btn__icon {
+  font-size: 18px;
+  line-height: 1;
+  margin-bottom: 4px;
+  opacity: .9;
+}
+.action-btn__label {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+.action-btn__sub {
+  font-size: 10px;
+  font-family: var(--font-mono);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  opacity: 0.7;
+}
+
+/* ─── Result · Rating ────────────────────────────────── */
+.rating-card {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: var(--r-lg);
+  padding: 20px;
+}
+.rating-card h4 {
+  font-family: var(--font-display);
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+.rating-card p {
+  font-size: 13px;
+  color: var(--ink-soft);
+  margin-bottom: 14px;
+}
+.rating-stars {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 8px;
+}
+.rating-star {
+  background: none;
+  border: none;
+  font-size: 28px;
+  color: #E8DCE3;
+  cursor: pointer;
+  padding: 2px 4px;
+  transition: color .15s, transform .15s;
+  line-height: 1;
+}
+.rating-star:hover { color: var(--coral); transform: scale(1.1); }
+.rating-star.is-on { color: var(--coral); }
+.rating-card__feedback {
+  font-size: 12px;
+  font-style: italic;
+  color: var(--rose);
+  min-height: 18px;
+}
+
+/* ─── Customize · CTA swatches ───────────────────────── */
+.cta-swatches {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.cta-swatch {
+  width: 44px;
+  height: 36px;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  cursor: pointer;
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 14px;
+  font-weight: 500;
+  transition: transform .15s, box-shadow .15s, border-color .15s;
+  box-shadow: 0 2px 6px rgba(31,15,28,0.08);
+}
+.cta-swatch:hover { transform: translateY(-2px); }
+.cta-swatch.is-active {
+  border-color: var(--ink);
+  box-shadow: 0 4px 12px rgba(31,15,28,0.18);
+}
+
+/* ─── Customize · Font row (4 buttons w/ font preview) ─ */
+.font-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+.font-btn {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: var(--r-md);
+  padding: 12px 10px;
+  cursor: pointer;
+  font-size: 16px;
+  color: var(--ink);
+  transition: all .15s;
+  text-align: center;
+}
+.font-btn:hover {
+  border-color: var(--rose);
+  background: var(--bg);
+}
+.font-btn.is-active {
+  background: var(--plum);
+  color: #fff;
+  border-color: var(--plum);
+}
+
+/* ─── Textgen · Single option (replaces 3-options grid) ─ */
+.tg-single {
+  margin: 24px 0;
+}
+.tg-single__card {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: var(--r-lg);
+  padding: 24px;
+  box-shadow: 0 4px 16px rgba(31,15,28,0.04);
+}
+.tg-single__row--meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 18px;
+  padding-bottom: 14px;
+  border-bottom: 1px dashed var(--line);
+}
+.tg-single__tag {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--rose);
+  font-weight: 600;
+}
+.tg-single__hint {
+  font-size: 12px;
+  color: var(--ink-soft);
+  font-style: italic;
+}
+.tg-single__field {
+  margin-bottom: 14px;
+}
+.tg-single__field label {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+.tg-single__field input,
+.tg-single__field textarea {
+  width: 100%;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: var(--r-md);
+  padding: 12px 14px;
+  font-family: var(--font-display);
+  font-size: 22px;
+  color: var(--ink);
+  resize: vertical;
+  transition: border-color .15s;
+}
+.tg-single__field input:focus,
+.tg-single__field textarea:focus {
+  outline: none;
+  border-color: var(--rose);
+  background: #fff;
+}
+.tg-single__field--cta input {
+  font-family: var(--font-ui);
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+.tg-single__field textarea {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: var(--font-ui);
+}
+
+/* mobile: stack action grid */
+@media (max-width: 720px) {
+  .actions-card__grid { grid-template-columns: 1fr; }
+  .font-row           { grid-template-columns: 1fr 1fr; }
+}
